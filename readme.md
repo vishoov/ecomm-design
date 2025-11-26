@@ -209,52 +209,6 @@ text
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- MongoDB (local or Atlas)
-- npm or yarn
-
-### Installation
-
-Clone the repository
-git clone <your-repo-url>
-
-Navigate to project directory
-cd ecommerce-backend
-
-Install dependencies
-npm install
-
-Create .env file
-touch .env
-
-Add environment variables
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-JWT_EXPIRE=7d
-Start development server
-npm run dev
-
-text
-
-### Environment Variables
-
-Create a `.env` file in the root directory:
-
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/ecommerce
-JWT_SECRET=your_super_secret_jwt_key
-JWT_EXPIRE=7d
-BCRYPT_SALT_ROUNDS=10
-
-text
-
----
-
 ## 📝 Development Notes
 
 - Follow RESTful API conventions
@@ -273,7 +227,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-Built with 💙 by [Your Name]
+Built with 💙 by Vishoo
 
 ---
 
